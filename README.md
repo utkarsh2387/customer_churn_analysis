@@ -14,8 +14,8 @@ Customer churn leads to significant revenue loss. This project analyzes churn dr
 - High monthly charges correlate with increased churn
 - A small customer segment contributes to majority of revenue loss
 
-### Dashboard
-(Insert screenshots here)
+## 📊 Dashboard Overview
+![Dashboard Overview](Screenshot 2026-02-16 224547.png)
 
 ### Recommendations
 - Promote long-term contracts
