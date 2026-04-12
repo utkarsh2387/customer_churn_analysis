@@ -15,7 +15,7 @@ Customer churn leads to significant revenue loss. This project analyzes churn dr
 - A small customer segment contributes to majority of revenue loss
 
 ## 📊 Dashboard Overview
-![Dashboard Overview](dashboard/churn_dashboard.png)
+![Dashboard Overview](dashboard/churn.png)
 
 ### Recommendations
 - Promote long-term contracts
