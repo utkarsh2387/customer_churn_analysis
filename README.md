@@ -24,7 +24,6 @@ Analysis of 7,043 telecom customer records to identify churn drivers and quantif
 - Strongest churn-increasing factors: month-to-month contract, higher monthly/total charges, fiber optic internet, electronic check payment, absence of tech support or online security
 
 
-### Model Performance
 ![Dashboard Overview](dashboard/model_performance.png)
 
 ### Retention Scenario: Contract-Type Simulation
