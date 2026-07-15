@@ -1,12 +1,12 @@
 ## Customer Churn & Revenue Leakage Analysis
 
-### Business Problem
+## Business Problem
 Customer churn(26%) leads to significant revenue loss. This project analyzes churn drivers and identifies high-risk customer segments to support data-driven retention strategies.
 
-### Project Overview
+## Project Overview
 Analysis of 7,043 telecom customer records to identify churn drivers and quantify the impact of a targeted retention lever (contract-type conversion) using a logistic regression model.
 
-## Key Steps in the Project
+### Key Steps in the Project
 
 1) Data Cleaning: Identified that TotalCharges was stored as text with blank values for zero-tenure customers; converted to numeric and imputed missing values as MonthlyCharges × tenure.
 2) Exploratory Data Analysis: Generated 11 visualizations (histograms, heatmaps, box plots) to surface churn patterns across tenure, charges, and contract type before any modeling.
