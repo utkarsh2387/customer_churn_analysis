@@ -25,7 +25,7 @@ Analysis of 7,043 telecom customer records to identify churn drivers and quantif
 
 
 ### Model Performance
-
+![Dashboard Overview](dashboard/model_performance.png)
 
 ### Retention Scenario: Contract-Type Simulation
 
