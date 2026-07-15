@@ -15,16 +15,31 @@ Analysis of 7,043 telecom customer records to identify churn drivers and quantif
 5) Model Evaluation: Assessed performance using accuracy, AUC, precision, and recall (not accuracy alone, given class imbalance).
 6) Retention Scenario Simulation: Used the trained model to simulate a targeted intervention — shifting month-to-month customers to one-year contracts — and measured the projected change in churn probability, holding all other customer attributes constant.
 
-### Tools Used
-- SQL (MySQL)
-- Python (Pandas, Matplotlib, Seaborn)
-- Power BI
+
 
 ### Key Insights
-- Month-to-month contracts have the highest churn rate
-- Low-tenure customers are more likely to churn
-- High monthly charges correlate with increased churn
-- A small customer segment contributes to majority of revenue loss
+- Overall churn rate: 26.5%
+- Month-to-month contract churn rate: 42.7% vs. one-year 11.3% vs. two-year 2.8% — roughly a 3× gap between month-to-month and one-year
+- Strongest churn-reducing factor: tenure (longer-tenured customers are significantly less likely to churn)
+- Strongest churn-increasing factors: month-to-month contract, higher monthly/total charges, fiber optic internet, electronic check payment, absence of tech support or online security
+
+
+### Model Performance
+!().
+
+### Retention Scenario: Contract-Type Simulation
+
+For the 3,875 month-to-month customers, the model's predicted churn probability was computed as-is (baseline), then recomputed after changing only their Contract field to "One year" — holding tenure, charges, and every other attribute constant. This isolates the effect of contract type specifically, rather than naively comparing two different customer groups.
+
+!().
+
+Important limitation: This is a correlational simulation based on patterns the model learned in historical data — it is not a causal claim. Customers who choose longer contracts may differ from month-to-month customers in unmeasured ways (e.g., price sensitivity, commitment level) that also correlate with lower churn, independent of contract type itself. A rigorous causal estimate would require a controlled A/B test — offering a sample of month-to-month customers a contract-switch incentive and measuring actual churn outcomes against a control group.
+
+
+### Tools Used
+- SQL/MySQL — Initial data exploration
+- Python — Pandas, NumPy (data cleaning, feature engineering), Scikit-learn (Logistic Regression, train/test splitting, evaluation metrics), Matplotlib & Seaborn (Visualization)
+- Power BI
 
 ## 📊 Dashboard Overview
 ![Dashboard Overview](dashboard/churn.png)
