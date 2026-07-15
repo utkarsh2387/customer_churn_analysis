@@ -51,3 +51,7 @@ Important limitation: This is a correlational simulation based on patterns the m
 - Focus on early-tenure engagement
 - Target high-revenue churn segments
 
+### Data Set
+
+Dataset used: Telco Customer Churn — Kaggle / IBM Sample Data Sets
+
