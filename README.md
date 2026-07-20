@@ -41,7 +41,7 @@ Important limitation: This is a correlational simulation based on patterns the m
 - Power BI
 
 ## 📊 Dashboard Overview
-![Dashboard Overview](dashboard/churn.png)
+![Dashboard Overview](dashboard/churn.png).
 
 ### Live Dashboard : [Link](https://app.powerbi.com/groups/06cdec44-3220-48a9-87bc-6d3241c1bca6/reports/65daef2f-cd8b-4527-b6d4-20a948c632bf/bba25b9641cb9af9ab42?ctid=2bb44e71-1601-4af2-a592-4224ddcfb1c3&experience=power-bi)
 
